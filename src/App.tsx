@@ -19,6 +19,7 @@ const App: React.FunctionComponent = () => {
     <div style={styles.container}>
       <div style={styles.videoContainer}>
         <h1 style={styles.heading}>Agora React Web UI Kit</h1>
+        <h3 style={styles.heading}>Test with admin id = 1 and member id = 11</h3>
         {videocall ? (
           <>
             <AgoraUIKit
